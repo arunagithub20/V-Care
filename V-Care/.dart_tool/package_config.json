@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "args",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/args-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "async",
       "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
@@ -56,6 +62,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_svg",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/flutter_svg-2.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///home/aruna/snap/flutter/common/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -90,6 +102,18 @@
       "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "path_parsing",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/path_parsing-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/petitparser-5.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "sky_engine",
@@ -134,6 +158,24 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "vector_graphics",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/vector_graphics-1.1.9+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_codec",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.9+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_compiler",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.9+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -146,13 +188,19 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "vcare",
+      "name": "xml",
+      "rootUri": "file:///home/aruna/.pub-cache/hosted/pub.dev/xml-6.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "getstart",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-01T09:26:39.856689Z",
+  "generated": "2023-11-01T18:20:37.284870Z",
   "generator": "pub",
-  "generatorVersion": "3.1.4"
+  "generatorVersion": "3.1.5"
 }

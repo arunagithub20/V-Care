@@ -1,6 +1,6 @@
 {
-    "name": "vcare",
-    "short_name": "vcare",
+    "name": "getstart",
+    "short_name": "getstart",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
