@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:getstart/content_model.dart';
+import 'package:getstart/pages/sparepartsshop.dart';
 
 
 class Onbording extends StatefulWidget {
@@ -87,7 +88,9 @@ class _OnbordingState extends State<Onbording> {
             Padding(
               padding: const EdgeInsets.only(bottom: 10,left: 20, right: 20),
               child: InkWell(
-                            onTap: () {},
+                            onTap: () {
+                      
+                            },
                             child: Container(
                               height: 50,
                               decoration: BoxDecoration(
