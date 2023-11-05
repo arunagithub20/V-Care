@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:getstart/pages/sparepartsshop.dart';
+import 'package:getstart/pages/vcarelogin.dart';
 
 import 'pages/getstart.dart';
-
 
 void main() => runApp(MyApp());
 
@@ -14,10 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
-      home: Onbording(),
-      
-      
+      home: vcarelogin(),
     );
   }
-  
 }
