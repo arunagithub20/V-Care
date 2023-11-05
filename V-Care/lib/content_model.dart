@@ -10,9 +10,7 @@ List<UnbordingContent> contents = [
   UnbordingContent(
     title: 'Vehicle Maintenance',
     image: 'images/maintenance',
-    discription: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
-    "industry's standard dummy text ever since the 1500s, "
-    "when an unknown printer took a galley of type and scrambled it "
+    discription: "Regular vehicle maintenance is the key to keeping your car running smoothly and ensuring your safety on the road. Stay on top of maintenance tasks, receive reminders, and access expert tips to extend the life of your vehicle. With our app, you can keep your car in top condition and enjoy worry-free driving."
   ),
   UnbordingContent(
     title: 'Spare Parts',
