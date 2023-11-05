@@ -22,7 +22,7 @@ List<UnbordingContent> contents = [
       title: 'Buying & Selling',
       image: 'images/buysell',
       discription:
-          "Connect with buyers and sellers through our user-friendly app. Secure transactions and explore a wide range of products to find what you need or turn your unwanted items into cash."),
+          "Use our user-friendly app to meet buyers and sellers, make safe deals, and find what you want or sell your stuff for cash."),
   UnbordingContent(
       title: 'Breakdown Services',
       image: 'images/breakdown',
