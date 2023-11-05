@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:getstart/content_model.dart';
-import 'package:getstart/pages/sparepartsshop.dart';
+import 'package:getstart/pages/vcarelogin.dart';
 
 
 class Onbording extends StatefulWidget {
@@ -89,7 +89,9 @@ class _OnbordingState extends State<Onbording> {
               padding: const EdgeInsets.only(bottom: 10,left: 20, right: 20),
               child: InkWell(
                             onTap: () {
-                      
+                              Navigator.of(context).push(MaterialPageRoute(builder:(context){
+                                return vcarelogin();
+                              }));
                             },
                             child: Container(
                               height: 50,

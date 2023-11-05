@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepOrange,
       ),
       home: Onbording(),
-
     );
   }
 }
