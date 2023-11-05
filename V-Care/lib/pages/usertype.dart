@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getstart/pages/garageowner.dart';
 import 'package:getstart/pages/sparepartsshop.dart';
 
 class allaccount extends StatelessWidget {
@@ -82,7 +83,11 @@ class allaccount extends StatelessWidget {
                             Container(
                               height: 66.0,
                               child: ElevatedButton(
-                                onPressed: () =>{},
+                                onPressed: () =>{
+                                  Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                                    return garageowner();
+                                  }))
+                                },
                                 child: Text('Garage Owner'),
                                 style: ElevatedButton.styleFrom(
                                   shape: RoundedRectangleBorder(
