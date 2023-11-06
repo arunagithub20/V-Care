@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getstart/pages/usertype.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
 class garageowner extends StatelessWidget {
@@ -32,6 +33,18 @@ class garageowner extends StatelessWidget {
                 child: Form(
                   child: ListView(
                     children: [
+                      //Icon button
+                           Align(
+                            alignment: Alignment.topLeft, 
+                            child: IconButton(
+                              onPressed: () {
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                                  return usertype();
+                                }));
+                              },
+                              icon: Icon(Icons.arrow_back_ios),
+                              ),
+                              ),
                       TextFormField(
                         decoration: InputDecoration(
                           labelText: 'Business Name',
