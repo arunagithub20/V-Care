@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getstart/pages/usertype.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 
 class Vehicleowner extends StatelessWidget {
@@ -29,9 +30,18 @@ class Vehicleowner extends StatelessWidget {
                     borderRadius: BorderRadius.circular(15)),
                 child: ListView(
                   children: [
-                    const SizedBox(
-                      height: 20,
-                    ),
+                    //Icon button
+                           Align(
+                            alignment: Alignment.topLeft, 
+                            child: IconButton(
+                              onPressed: () {
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                                  return usertype();
+                                }));
+                              },
+                              icon: Icon(Icons.arrow_back_ios),
+                              ),
+                              ),
                     Padding(
                       padding: const EdgeInsets.only(left: 20, right: 20),
                       child: TextFormField(

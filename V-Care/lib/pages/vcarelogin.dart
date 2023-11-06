@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getstart/pages/getstart.dart';
 import 'package:getstart/pages/usertype.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
@@ -57,6 +58,18 @@ class vcarelogin extends StatelessWidget {
                         child: ListView(
                           children: [
                             const SizedBox(height: 05),
+                            //Icon button
+                           Align(
+                            alignment: Alignment.topLeft, 
+                            child: IconButton(
+                              onPressed: () {
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                                  return Onbording();
+                                }));
+                              },
+                              icon: Icon(Icons.arrow_back_ios),
+                              ),
+                              ),
                             // Add the logo image
                             Image.asset(
                               'images/vcare_logo.png',
@@ -122,7 +135,7 @@ class vcarelogin extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {
                                 Navigator.of(context).push(MaterialPageRoute(builder: (context){
-                                  return allaccount();
+                                  return usertype();
                                 }));
                               },
                               child: Text('Create new account'),
